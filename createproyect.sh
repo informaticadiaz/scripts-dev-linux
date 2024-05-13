@@ -24,5 +24,20 @@ echo "node_modules" > .prettierignore
 echo "build" >> .prettierignore
 echo "coverage" >> .prettierignore
 
+# Crear el archivo .prettierrc
+cat << EOF > .prettierrc
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true,
+  "plugins": [
+    "prettier-plugin-tailwindcss"
+  ],
+  // Puedes agregar más configuraciones aquí
+}
+EOF
+
+
 # Mensaje de finalización
 echo "Proyecto '$nombre_app' creado exitosamente."
