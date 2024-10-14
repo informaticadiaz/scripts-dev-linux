@@ -1,0 +1,3 @@
+comando=$(ls)
+
+echo $comando

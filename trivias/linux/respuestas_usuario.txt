@@ -1,0 +1,6 @@
+Pregunta 1: Respuesta: a (Incorrecta, respuesta correcta: -eq)
+Pregunta 2: Respuesta: a (Incorrecta, respuesta correcta: VAR=5)
+Pregunta 3: Respuesta: a (Incorrecta, respuesta correcta: chmod +x script.sh)
+Pregunta 4: Respuesta: a (Incorrecta, respuesta correcta: ./myscript.sh)
+Pregunta 5: Respuesta: a (Correcta)
+Resultado: Reprobado
